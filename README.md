@@ -25,7 +25,14 @@ hospital-readmissions-analytics/
 │   └── profiles.yml         # optional; or keep it local
 │
 ├── notebooks/               # Databricks notebooks for EDA & ETL
-│   ├── load_synthea_data.py
+│   ├── load_synthea_data.py (healthcare_catalog
+       └── silver
+       ├── patients_dim
+       ├── hospital_dim
+       ├── diagnosis_dim
+       ├── procedures_dim
+       ├── encounters_fact
+       └── hospital_readmissions_cleaned    ← уже готова)
 │   ├── explore_readmissions.ipynb
 │   └── transform_to_delta.py
 │
